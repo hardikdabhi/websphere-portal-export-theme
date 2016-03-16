@@ -15,6 +15,7 @@ Shell script to export Websphere Portal theme to a PAA application file, which c
     |--- theme.html
 ```
 > Note: It is important to copy static resources to local directory, as script does not connect to webdav.
+
 3. Copy content of theme dynamic resources to local directory (different than above static local directory) and note the path of this directory. The structure of your local dynamic directory should look something like below.
 ```
 |--- local_dynamic_directory
